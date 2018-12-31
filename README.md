@@ -18,3 +18,5 @@ Yazılımın mantığını kavramak isteyenlerin ve meraklısının seveceği bi
 		- Chrono kullanarak C++'da saniyelik bazda bekleme ayarlamak ve milisaniyeyi almak (C++11)
 	
 NOT: Bu kod C++11 kütüphanelerini kullanmaktadır. GCC'ye -std=c++11 argümanını iletmezseniz kod çalışmaz. Bunu Bloodshed Dev-C++ (veya herhangi bir forku) uygulamasında Tools > Compiler options bölümünde üstteki alana ilgili argümanı girip tiki işaretleyerek yapabilirsiniz.
+
+<b>Direk exe olarak indirmek için: <a href="http://s7.dosya.tc/server12/5ho4wm/Untitled20.exe.html">burayı tıklayın</a></b>
