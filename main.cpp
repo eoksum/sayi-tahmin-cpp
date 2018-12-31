@@ -2,7 +2,7 @@
 	
 	Yazan: Emrecan Öksüm
 	Tarihi: 30-12-2018
-	Sürüm: v1.0
+	Sürüm: v1.1
 	
 	Yazılımın mantığını kavramak isteyenlerin ve meraklısının seveceği bir yazılım.
 	
@@ -179,15 +179,24 @@ int main() {
 	cout << "Oyun bilgisi : (" << elSay << "/" << el << ")" << endl;
 	if(tahminler >= 3) {
 		
+		int asalMi = 1;
 		cout << "IPUCU: Aradiginiz sayi ";
 		for(int i = 2; i <= sayi; i++) {
 			
 			if(sayi % i == 0 && sayi != i) {
 				
 				cout << i << " ";
+				asalMi = 0;
 			}
 		}
-		cout << "sayi(lari) ile tam bolunebiliyor." << endl;
+		
+		if(asalMi == 0) {
+		
+			cout << "sayi(lari) ile tam bolunebiliyor." << endl;
+		}else{
+			
+			cout << "bir asal sayi." << endl;
+		}
 	}
 	cout << "[OYUNCU 2] Sayiyi bulmaya calisin: ";
 	cin >> girdi; cout << "" << endl;
