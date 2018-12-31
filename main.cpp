@@ -2,7 +2,7 @@
 	
 	Yazan: Emrecan Öksüm
 	Tarihi: 30-12-2018
-	Sürüm: v1.1
+	Sürüm: v1.2
 	
 	Yazılımın mantığını kavramak isteyenlerin ve meraklısının seveceği bir yazılım.
 	
@@ -177,7 +177,7 @@ int main() {
 	}
 	girdi = 0;
 	cout << "Oyun bilgisi : (" << elSay << "/" << el << ")" << endl;
-	if(tahminler >= 3) {
+	if(tahminler >= kalanTahminHak*0.5) {
 		
 		int asalMi = 1;
 		cout << "IPUCU: Aradiginiz sayi ";
